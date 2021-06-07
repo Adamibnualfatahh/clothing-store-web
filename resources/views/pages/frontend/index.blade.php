@@ -7,7 +7,7 @@
           class="w-full absolute z-20 inset-0 md:relative md:w-1/2 text-center flex flex-col justify-center hero-caption"
         >
           <h1 class="text-3xl md:text-5xl leading-tight font-semibold">
-            Percetakan <br class="" />Santri Letter
+            A Store <br class="" />Buying stuff is easier
           </h1>
           <h2 class="px-8 text-base md:px-0 md:text-lg my-6 tracking-wide">
             Kami menyediakan furniture berkelas yang
