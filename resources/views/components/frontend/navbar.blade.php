@@ -16,26 +16,7 @@
           class="fixed bg-white inset-0 flex flex-col invisible items-center justify-center opacity-0 md:visible md:flex-row md:bg-transparent md:relative md:opacity-100 md:flex md:items-center"
           id="menu"
         >
-          <li class="mx-3 py-6 md:py-0">
-            <a href="#" class="text-black {{ \Route::current()->getName() == 'index' ? 'md:text-white' : 'md:text-black' }} hover:underline"
-              >Showcase</a
-            >
-          </li>
-          <li class="mx-3 py-6 md:py-0">
-            <a href="#" class="text-black {{ \Route::current()->getName() == 'index' ? 'md:text-white' : 'md:text-black' }} hover:underline"
-              >Catalog</a
-            >
-          </li>
-          <li class="mx-3 py-6 md:py-0">
-            <a href="#" class="text-black {{ \Route::current()->getName() == 'index' ? 'md:text-white' : 'md:text-black' }} hover:underline"
-              >Delivery</a
-            >
-          </li>
-          <li class="mx-3 py-6 md:py-0">
-            <a href="#" class="text-black {{ \Route::current()->getName() == 'index' ? 'md:text-white' : 'md:text-black' }} hover:underline"
-              >Rewards</a
-            >
-          </li>
+
           @auth
             <li class="mx-3 py-6 md:py-0">
             <a href="{{ route('dashboard.index') }}" class="text-black {{ Route::current()->getName() == 'index' ? 'md:text-white' : 'md:text-black' }} hover:underline"
@@ -45,7 +26,8 @@
           @endauth
 
           @guest
-          <li class="mx-3 py-6 md:py-0">
+          
+          <li class="mx-3 py-6 md:py-0 ">
             <a href="{{ route('login') }}" class="text-black {{ Route::current()->getName() == 'index' ? 'md:text-white' : 'md:text-black' }} hover:underline"
               >Login</a
             >

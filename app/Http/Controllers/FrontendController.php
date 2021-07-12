@@ -110,7 +110,7 @@ class FrontendController extends Controller
 
     public function success(Request $request) 
     {
-        return view('pages.frontend.success');
+        return view('checkout-success');
     }
 }
 
